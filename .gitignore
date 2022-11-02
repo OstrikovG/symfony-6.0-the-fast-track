@@ -26,4 +26,10 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
+###> symfony config secrets ###
+/config/secrets/dev/dev.decrypt.private.php
+/config/secrets/dev/prod.decrypt.private.php
+###< symfony config secrets ###
+
 /public/uploads
+
