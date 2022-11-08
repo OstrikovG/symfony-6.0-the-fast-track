@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="uk" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="LNAVleg" resname="Give your feedback!">
+        <source>Give your feedback!</source>
+        <target>Дайте свій відгук!</target>
+      </trans-unit>
+      <trans-unit id="3Mg5pAF" resname="View">
+        <source>View</source>
+        <target>Переглянути</target>
+      </trans-unit>
+      <trans-unit id="eOy4.6V" resname="Conference Guestbook">
+        <source>Conference Guestbook</source>
+        <target>Гостьова книга конференції</target>
+      </trans-unit>
+      <trans-unit id="TlZecGS" resname="Conference">
+        <source>Conference</source>
+        <target>Конференція</target>
+      </trans-unit>
+      <trans-unit id="pXsIpIC" resname="Previous">
+        <source>Previous</source>
+        <target>Попередня</target>
+      </trans-unit>
+      <trans-unit id="H.V6Kdf" resname="Next">
+        <source>Next</source>
+        <target>Наступна</target>
+      </trans-unit>
+      <trans-unit id="7bokozx" resname="No comments have been posted yet for this conference.">
+        <source>No comments have been posted yet for this conference.</source>
+        <target>Для цієї конференції ще не було опубліковано коментарів.</target>
+      </trans-unit>
+      <trans-unit id="wcIksDz" resname="Admin">
+        <source>Admin</source>
+        <target>Aдмін</target>
+      </trans-unit>
+      <trans-unit id="sF2VxiN" resname="Back to top">
+        <source>Back to top</source>
+        <target>Догори</target>
+      </trans-unit>
+      <trans-unit id="zI.Z63_" resname="Welcome!">
+        <source>Welcome!</source>
+        <target>Ласкаво просимо!</target>
+      </trans-unit>
+      <trans-unit id="ilFYXWP" resname="Add your own feedback">
+        <source>Add your own feedback</source>
+        <target>Додайте свій відгук</target>
+      </trans-unit>
+      <trans-unit id="LGsuJTw" resname="Your name">
+        <source>Your name</source>
+        <target>Твоє ім'я</target>
+      </trans-unit>
+      <trans-unit id="cZiMTY4" resname="Text">
+        <source>Text</source>
+        <target>Текст</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+        <source>Email</source>
+        <target>Електронна пошта</target>
+      </trans-unit>
+      <trans-unit id="2E7rrak" resname="Photo">
+        <source>Photo</source>
+        <target>Фото</target>
+      </trans-unit>
+      <trans-unit id="FV_BbAQ" resname="Submit">
+        <source>Submit</source>
+        <target>Надіслати</target>
+      </trans-unit>
+      <trans-unit id="maMQz7W" resname="nb_of_comments">
+        <source>nb_of_comments</source>
+        <target>{count, plural, =0 {Коментарі відсутні.} one {# коментар.} few {# коментарі.} many {# коментарів.} other {# коментаря.}}</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
