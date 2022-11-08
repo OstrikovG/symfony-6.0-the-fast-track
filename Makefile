@@ -8,9 +8,14 @@ tests:
 	symfony php bin/phpunit $@
 .PHONY: tests
 
-server:
+server-start:
 	symfony server:start -d;
 	symfony run -d --watch=config,src,templates,vendor symfony console messenger:consume async -vv;
 	cd spa; API_ENDPOINT=`symfony var:export SYMFONY_PROJECT_DEFAULT_ROUTE_URL --dir=..` symfony run -d --watch=webpack.config.js yarn encore dev --watch; \
 	symfony server:start -d --passthru=index.html;
-.PHONY: server
+.PHONY: server-run
+
+server-stop:
+	symfony server:stop;
+	cd spa; symfony server:stop; \
+.PHONY: server-stop
