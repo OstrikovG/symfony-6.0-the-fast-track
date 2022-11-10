@@ -11,6 +11,9 @@ varnish:
             type: string
             path: config.vcl
 
+rediscache:
+    type: redis:5.0
+
 files:
     type: network-storage:1.0
     disk: 256
